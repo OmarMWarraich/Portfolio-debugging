@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - A description of O-va's profile</title>
+</head>
+<body>   
+    <div class="body-wrapper">
+            <nav class="nav" id="nav">
+                <div class="logo_header">  
+                  <div class="logo">
+                        Ova
+                  </div>
+                  <div class="navbar_toggle" onclick="toggle();">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div>
+                </div>
+                
+                <div>
+                <ul class="main_nav">
+                  <li class="nav_items">
+                    <a href="#work-flex" class="nav_link" onclick="navlink();">Portfolio</a>
+                    <h2>></h2>
+                  </li>
+                  <li class="nav_items">
+                    <a href="#hero" class="nav_link" onclick="navlink();">About</a>
+                    <h2>></h2>
+                  </li>
+                  <li class="nav_items">
+                    <a href="#form" class="nav_link" onclick="navlink();">Contact</a>
+                    <h2>></h2>
+                  </li>
+                  <li class="nav_items">
+                    <a href="#footer-email" class="nav_link" onclick="navlink();"><img src="./assets/email.png" alt="email"></a>
+                    <h2>></h2>
+                  </li>
+                </ul>
+                </div>                  
+              </nav>
+        <section class="container-flex">
+            <div class="hero" id="hero">
+                <h1>Omar Mohammad</h1>
+                <br>
+            </div>
+            <div class="title">  
+                <h2>Software Developer</h2>        
+                <br/>
+            </div>
+        
+            <div class="description">    
+                <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            </div>
+            <hr/>
+            <div class="skills-flex">
+                <div class="trait">
+                    <h4>Language</h4>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Ruby</li>
+                        <li>Css</li>
+                        <li>Html</li>
+                    </ul>
+                </div>
+                <div class="trait" id="framework">
+                    <h4>Frameworks</h4>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>                        
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+                <div class="trait">
+                        <h4>Skills</h4>
+                    <ul>
+                        <li>Git</li>
+                        <li>Codekit</li>
+                        <li>Codepen</li>
+                        <li>Terminal</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div> 
+            <hr>     
+            <div class="media-flex">
+                <span class="top-span">&#8595; &nbsp;&nbsp; WORK</span>
+                <div class="icons">
+                    <a href="#"><img alt= 'git' src="./assets/Github.svg"></a>
+                    <a href="#"><img alt= 'vic' src="./assets/Victory.svg"></a>
+                    <a href="#"><img alt= 'twitter' src="./assets/Twitter.svg"></a>
+                    <a href="#"><img alt= 'M' src="./assets/M.svg"></a>
+                </div> 
+                    <span class="bottom-span">&#8595; &nbsp;&nbsp; WORK</span>
+            </div>   
+        </section>
+        <section class="work-flex" id="work-flex">
+            <div class="caption">
+                <h2>MY RECENT 
+                    WORK
+                </h2>
+            </div>
+            <hr>
+            <div class = "work-container1">
+                <div class="img">
+                    <img src="./assets/project.jpeg" alt="project-1">
+                </div>
+                <div class="specs" id="specs1">
+                    <div class="hero1">
+                    <h2 class="hero1">
+                        Multi-Post Stories
+                    </h2>
+                    </div>
+                    <div class="p">
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                    </p>
+                    </div>
+                    <div class="ul">
+                    <ul>
+                        <li id="css">css</li>
+                        <li id="html">html</li>
+                        <li id="bootstrap">bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                    </div>
+                    <div class="submit">
+                    <button onclick="fillpop();" type="submit" class="btn" id="myBtn">
+                        See Project
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class = "work-container2">
+                <div class="img">
+                    <img src="./assets/project.jpeg" alt="project-1">
+                </div>
+                <div class="specs" id="specs2">
+                    <div class="hero1" id="hero2">
+                    <h1>
+                        Multi-Post Stories
+                    </h1>
+                    </div>
+                    <div class="p">
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                    </p>
+                    </div>
+                    <div class="ul" id="ul">
+                    <ul>
+                        <li id="css1">css</li>
+                        <li id="html1">html</li>
+                        <li id="bootstrap1">bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                    </div>
+                    <div class="submit">
+                    <button type="submit" onclick="fillpop();" class="btn" id="myBtn2">
+                        See Project
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container3">
+                <div class="img">
+                    <img src="./assets/project.jpeg" alt="project-1">
+                </div>
+                <div class="specs" id="specs3">
+                    <div class="hero1">
+                    <h1>
+                        Multi-Post Stories
+                    </h1>
+                    </div>
+                    <div class="p">
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                    </p>
+                    </div>
+                    <div class="ul">
+                    <ul>
+                        <li id="css3">css</li>
+                        <li id="html3">html</li>
+                        <li id="bootstrap3">bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                    </div>
+                    <div class="submit">
+                    <button type="submit" onclick="fillpop();" class="btn" id="myBtn3">
+                        See Project
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <div class = "work-container4">
+                <div class="img" id="img2">
+                    <img src="./assets/project.jpeg" alt="project-1">
+                </div>
+                <div class="specs" id="specs4">
+                    <div class="hero1">
+                    <h1>
+                        Multi-Post Stories
+                    </h1>
+                    </div>
+                    <div class="p">
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                    </p>
+                    </div>
+                    <div class="ul">
+                    <ul>
+                        <li id="css4">css</li>
+                        <li id="html4">html</li>
+                        <li id="bootstrap4">bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                    </div>
+                    <div class="submit">
+                    <button type="submit" onclick="fillpop();" class="btn" id="myBtn4">
+                        See Project
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="form">
+                <div class="chat">
+                    <h1>Let's chat</h1>
+                </div>
+                <div class="chat-desc">
+                    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                </div>
+                <form action="https://formspree.io/f/xbjbrdyg" method="post" id="form" onblur="saveInput();">
+                    <div class="flname">
+                        <input type="text"  id="nname" name="nname" class="nname" onblur="saveInput();" placeholder="Name" maxlength="30">
+                        <input type="text"  id="fname" name="fname" class="fname" onblur="saveInput();" placeholder="First Name" maxlength="15">
+                        <input type="text"  id="lname" name="lname" class="lname" onblur="saveInput();" placeholder="Last Name" maxlength="15">
+                    </div>
+                    <input type="email" id="email" onblur="saveInput();" name="email" class="email1" placeholder="Email" required>
+                    <textarea name="message" id="message" onblur="saveInput();" class="text" cols="30" rows="10" placeholder="Enter text here." maxlength="500" required></textarea>
+                    <span class="error" aria-live="polite"></span>
+                    <button type="submit" class="btn" onblur="saveInput();">Submit</button>
+                    
+                </form>
+            </div>    
+        </section>
+        <hr>
+        <section class="footer-bottom">
+            <div class="icons">   
+                <a href="#"><img alt= 'git' src="./assets/Github.svg"></a>
+                <a href="#"><img alt= 'Vic' src="./assets/Victory.svg"></a>
+                <a href="#"><img alt= 'Twitter' src="./assets/Twitter.svg"></a>
+                <a href="#"><img alt= 'M' src="./assets/M.svg"></a>
+            </div>
+            <div class="footer-email" id="footer-email">
+                <h4>email@email.com</h4>
+            </div>               
+        </section>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="hero2" id="hero1">
+                <div>
+                  <h1></h1>
+                </div>
+                <div>
+                  <span class="close" onclick="spanbtn();">&times;</span>
+                </div>
+              </div>
+              <div id="img">
+                <img src="#" alt="project-1">      
+              </div>
+              <div id="p">
+                <p></p>
+              </div>  
+              <div id="ul1">
+                <ul>
+                    <li id="css7">css</li>
+                    <li>html</li>
+                    <li>bootstrap</li>
+                    <li>Ruby</li>
+                </ul>
+              </div>
+              <div id="project-buttons">
+                <button type="submit" class="btn" id="see_project" onclick="live();">     
+                        See Live
+                    <span><img src="./assets/foreign(1).png" alt = "" /></span>
+                </button>
+                <button type="submit" class="btn" id="see_source" onclick="project();">
+                    See Source
+                    <span><img src="./assets/Github.svg" alt = "" /></span>
+                </button>
+              </div>  
+            </div>
+          </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>  
